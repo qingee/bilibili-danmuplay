@@ -502,7 +502,7 @@ to{background-position:0 -600px}
     color: #fff;
     position: absolute;
     left: 5px;
-    top: 3px;
+    top: 0px;
     display: none;
     text-align: center;
 }
