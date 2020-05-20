@@ -260,7 +260,7 @@ to{opacity:.25;-webkit-transform:scale(.85);transform:scale(.85)}}.leleplayer-co
 .leleplayer-controller .leleplayer-icons .leleplayer-setting .leleplayer-setting-box.leleplayer-setting-box-narrow{width:70px;height:180px;text-align:center}
 .leleplayer-controller .leleplayer-icons .leleplayer-setting .leleplayer-setting-box.leleplayer-setting-box-speed .leleplayer-setting-origin-panel{display:none}
 .leleplayer-controller .leleplayer-icons .leleplayer-setting .leleplayer-setting-box.leleplayer-setting-box-speed .leleplayer-setting-speed-panel{display:block}
-.leleplayer-controller .leleplayer-icons .leleplayer-setting .leleplayer-setting-item,.leleplayer-controller .leleplayer-icons .leleplayer-setting .leleplayer-setting-speed-item{height:30px;padding: 0px 10px;-webkit-box-sizing:border-box;box-sizing:border-box;cursor:pointer;position:relative;}
+.leleplayer-controller .leleplayer-icons .leleplayer-setting .leleplayer-setting-item,.leleplayer-controller .leleplayer-icons .leleplayer-setting .leleplayer-setting-speed-item{height:30px;padding: 5px 10px;-webkit-box-sizing:border-box;box-sizing:border-box;cursor:pointer;position:relative;}
 .leleplayer-controller .leleplayer-icons .leleplayer-setting .leleplayer-setting-item:hover{background-color:hsla(0,0%,100%,.1)}
 .leleplayer-controller .leleplayer-icons .leleplayer-setting .leleplayer-setting-danmaku{padding: 0px 0;}
 .leleplayer-controller .leleplayer-icons .leleplayer-setting .leleplayer-setting-danmaku .leleplayer-label{padding:0 10px;display:inline}
@@ -449,8 +449,8 @@ to{background-position:0 -600px}
 
 .leleplayer-full-icon span svg,.leleplayer-fulloff-icon span svg{display: none;}
 .leleplayer-full-icon span,.leleplayer-fulloff-icon span{background-size:contain!important;float: left;width: 22px;height: 22px;}
-.leleplayer-full-icon span{background: url(https://cdn.jsdelivr.net/gh/qingee/bilibili-danmuplay@v1.3/img/full.png) center no-repeat;}
-.leleplayer-fulloff-icon span{background: url(https://cdn.jsdelivr.net/gh/qingee/bilibili-danmuplay@v1.3/img/fulloff.webp) center no-repeat;}
+.leleplayer-full-icon span{background: url(./img/full.png) center no-repeat;}
+.leleplayer-fulloff-icon span{background: url(./img/fulloff.webp) center no-repeat;}
 #loading-box {background: #<?php echo($_GET['color']);?>!important;}
 #vod-title{overflow: unset;width: 285px;white-space: normal;color: #fb7299;overflow:hidden;}
 #vod-title e{padding: 2px;}
@@ -501,8 +501,8 @@ to{background-position:0 -600px}
     border-radius: 12px;
     color: #fff;
     position: absolute;
-    left: 5px;
-    top: 0px;
+    left: 3px;
+    top: 3px;
     display: none;
     text-align: center;
 }
