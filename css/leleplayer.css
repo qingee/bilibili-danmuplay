@@ -449,8 +449,8 @@ to{background-position:0 -600px}
 
 .leleplayer-full-icon span svg,.leleplayer-fulloff-icon span svg{display: none;}
 .leleplayer-full-icon span,.leleplayer-fulloff-icon span{background-size:contain!important;float: left;width: 22px;height: 22px;}
-.leleplayer-full-icon span{background: url(./img/full.png) center no-repeat;}
-.leleplayer-fulloff-icon span{background: url(./img/fulloff.webp) center no-repeat;}
+.leleplayer-full-icon span{background: url(https://cdn.jsdelivr.net/gh/qingee/bilibili-danmuplay@v1.3/img/full.png) center no-repeat;}
+.leleplayer-fulloff-icon span{background: url(https://cdn.jsdelivr.net/gh/qingee/bilibili-danmuplay@v1.3/img/fulloff.webp) center no-repeat;}
 #loading-box {background: #<?php echo($_GET['color']);?>!important;}
 #vod-title{overflow: unset;width: 285px;white-space: normal;color: #fb7299;overflow:hidden;}
 #vod-title e{padding: 2px;}
